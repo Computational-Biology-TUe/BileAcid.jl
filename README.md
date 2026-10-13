@@ -119,8 +119,8 @@ fast as later ones (`using BileAcids` takes about 4 s);
 [`examples/benchmark.jl`](examples/benchmark.jl) reproduces these timings.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="benchmark/tolerances-dark.png">
-  <img alt="Two panels against relative tolerance from 1e-3 to 1e-9: error, and run time, for Julia QNDF, FBDF, Rodas5P and KenCarp47 and for MATLAB ode15s with and without JPattern." src="benchmark/tolerances.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tolerances-dark.png">
+  <img alt="Two panels against relative tolerance from 1e-3 to 1e-9: error, and run time, for Julia QNDF, FBDF, Rodas5P and KenCarp47 and for MATLAB ode15s with and without JPattern." src="assets/tolerances.png">
 </picture>
 
 Each solver integrated the protocol at seven tolerances, with `abstol = reltol / 100`.
