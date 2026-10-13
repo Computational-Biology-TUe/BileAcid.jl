@@ -1,0 +1,33 @@
+name = "BileAcids"
+uuid = "a0ecf195-3ee8-4e9c-9d15-539ddf44754a"
+version = "0.1.0"
+
+[deps]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SparseConnectivityTracer = "9f842d2f-2579-4b1d-911e-f412cf18a3f5"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+DelimitedFiles = "1"
+ForwardDiff = "0.10, 1"
+OrdinaryDiffEq = "7"
+OrdinaryDiffEqBDF = "2"
+PrecompileTools = "1"
+SciMLBase = "3"
+SparseArrays = "1"
+SparseConnectivityTracer = "1"
+StaticArrays = "1"
+Test = "1"
+julia = "1.10"
+
+[extras]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["DelimitedFiles", "ForwardDiff", "Test"]
